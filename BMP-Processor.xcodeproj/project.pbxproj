@@ -8,23 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		524AFC021FA08CC1001B756D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 524AFC011FA08CC1001B756D /* main.c */; };
+		524AFC0A1FA08EEC001B756D /* BMP.c in Sources */ = {isa = PBXBuildFile; fileRef = 524AFC081FA08EEC001B756D /* BMP.c */; };
+		5254317D1FC6147700E46FA5 /* test2.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5254317C1FC6146F00E46FA5 /* test2.bmp */; };
+		525D944E1FFEF7CF00F892DA /* test3.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 525D944D1FFEF7A500F892DA /* test3.bmp */; };
+		525D94501FFF017400F892DA /* alpha.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 525D944F1FFF016900F892DA /* alpha.bmp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		524AFBFC1FA08CC1001B756D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				525D94501FFF017400F892DA /* alpha.bmp in CopyFiles */,
+				525D944E1FFEF7CF00F892DA /* test3.bmp in CopyFiles */,
+				5254317D1FC6147700E46FA5 /* test2.bmp in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		524AFBFE1FA08CC1001B756D /* BMP-Processor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BMP-Processor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524AFC011FA08CC1001B756D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		524AFC081FA08EEC001B756D /* BMP.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BMP.c; sourceTree = "<group>"; };
+		524AFC091FA08EEC001B756D /* BMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMP.h; sourceTree = "<group>"; };
+		5254317C1FC6146F00E46FA5 /* test2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = test2.bmp; sourceTree = "<group>"; };
+		525D944D1FFEF7A500F892DA /* test3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = test3.bmp; sourceTree = "<group>"; };
+		525D944F1FFF016900F892DA /* alpha.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = alpha.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				524AFC011FA08CC1001B756D /* main.c */,
+				524AFC081FA08EEC001B756D /* BMP.c */,
+				5254317C1FC6146F00E46FA5 /* test2.bmp */,
+				525D944F1FFF016900F892DA /* alpha.bmp */,
+				525D944D1FFEF7A500F892DA /* test3.bmp */,
+				524AFC091FA08EEC001B756D /* BMP.h */,
 			);
 			path = "BMP-Processor";
 			sourceTree = "<group>";
@@ -120,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524AFC021FA08CC1001B756D /* main.c in Sources */,
+				524AFC0A1FA08EEC001B756D /* BMP.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
